@@ -1,0 +1,30 @@
+name: infowindow
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.3.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^0.5.24+1
+  location: ^2.5.4
+  flutter_polyline_points: ^0.1.0
+  cupertino_icons: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - assets/destination_map_marker.png
+    - assets/driving_pin.png
+    - assets/friend1.jpg
+    - assets/friend2.jpg
