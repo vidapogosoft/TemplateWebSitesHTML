@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MountainTripTimeSample"
+    xmlns:PanCake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+    x:Class="MountainTripTimeSample.Views.DetailsPage">
+     
+    <ContentPage.Content>
+       <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" /> 
+            </Grid.RowDefinitions>  
+            <ScrollView Grid.Row="0">   
+                <Grid Padding="30,20,30,150">
+                     <Grid.RowDefinitions>
+                        <RowDefinition Height="auto" />
+                        <RowDefinition Height="auto" />
+                        <RowDefinition Height="auto" />
+                        <RowDefinition Height="auto" />
+                        <RowDefinition Height="auto" />
+                        <RowDefinition Height="auto" />
+                    </Grid.RowDefinitions>
+                    
+                    <Label Grid.Row="0" HorizontalTextAlignment="Start">
+                           <Label.FormattedText>
+                                <FormattedString>
+                                   <Span Text="Translate " FontSize="36" FontAttributes="Bold" />
+                                    <Span Text="whatever you want." FontSize="35"/> 
+                                </FormattedString>
+                            </Label.FormattedText>
+                    </Label>
+
+                    <ScrollView VerticalScrollBarVisibility="Never" 
+                              HeightRequest="365"
+                              Padding="0,70,0,0"
+                              Orientation="Horizontal">
+                        <StackLayout x:Name="mountainLayout"
+                                     Orientation="Horizontal" VerticalOptions="Center"> 
+                        </StackLayout>
+                    </ScrollView>
+                   
+
+                    <Grid Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0" Text="Palabra a traducir" FontSize="12" FontAttributes="Bold" />
+
+                       
+                    </Grid>
+
+                    <StackLayout Grid.Row="3">
+                        <Entry Placeholder="Ingresa palabra a traducir" FontSize="20" x:Name="Atraducir"></Entry>
+                    </StackLayout>
+
+
+                    <StackLayout Grid.Row="4">
+                        <Button Text="Traducir" Font="20" BackgroundColor="#e5354b" TextColor="White" x:Name="Traductor" Clicked="Traductor_Clicked"></Button>
+                    </StackLayout>
+
+                    <Grid Grid.Row="5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0" Text="Resultado traduccion" FontSize="12" FontAttributes="Bold" />
+
+
+                    </Grid>
+
+                    <StackLayout Grid.Row="6">
+                        <Entry Placeholder="Resultado de traduccion" FontSize="20" x:Name="Resultado"></Entry>
+                    </StackLayout>
+
+                </Grid>
+             </ScrollView>
+
+           <Frame Grid.Row="0" BackgroundColor="#ef5265" CornerRadius="20"
+                  HorizontalOptions="FillAndExpand" HeightRequest="30" VerticalOptions="End">
+            
+               <Grid VerticalOptions="Start">
+                  <Grid.ColumnDefinitions>
+                      <ColumnDefinition Width="*"/>
+                      <ColumnDefinition Width="*"/>
+                      <ColumnDefinition Width="*"/>
+                  </Grid.ColumnDefinitions>
+                 <Grid.RowDefinitions>
+                      <RowDefinition Height="AUTO"/>
+                  </Grid.RowDefinitions>
+
+
+                    <Button x:Name="MsgMenu" Grid.Column="0" ImageSource="MsgIcon" HeightRequest="80" BackgroundColor="Transparent"  Clicked="MsgMenu_Clicked" TranslationY="-20" >
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup Name="MenuPressed">
+                                <VisualState Name="PressedMenu">
+                                    <VisualState.Setters>
+                                        <Setter Property="BackgroundColor" Value="#e5354b" />
+                                        <Setter Property="TranslationY" Value="-40" />
+                                    </VisualState.Setters>
+                                </VisualState>
+                                <VisualState Name="UnPressedMenu">
+                                    <VisualState.Setters>
+                                        <Setter Property="BackgroundColor" Value="Transparent" />
+                                        <Setter Property="TranslationY" Value="-20" />
+                                    </VisualState.Setters>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                    </Button>
+
+                    <Button x:Name="BusMenu" Grid.Column="1" ImageSource="BusIcon" HeightRequest="80" BackgroundColor="Transparent" Clicked="BusMenu_Clicked" TranslationY="-20" >
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup Name="MenuPressed">
+                                <VisualState Name="PressedMenu">
+                                    <VisualState.Setters>
+                                        <Setter Property="BackgroundColor" Value="#e5354b" />
+                                        <Setter Property="TranslationY" Value="-40" />
+                                    </VisualState.Setters>
+                                </VisualState>
+                                <VisualState Name="UnPressedMenu">
+                                    <VisualState.Setters>
+                                        <Setter Property="BackgroundColor" Value="Transparent" />
+                                        <Setter Property="TranslationY" Value="-20" />
+                                    </VisualState.Setters>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                    </Button>
+
+                    <Button x:Name="MountainMenu" Grid.Column="2" ImageSource="MountainIcon" BackgroundColor="Transparent"  HeightRequest="80" TranslationY="-20" Clicked="MountainMenu_Clicked" WidthRequest="10">
+                           <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup Name="MenuPressed">
+                                <VisualState Name="PressedMenu">
+                                    <VisualState.Setters> 
+                                          <Setter Property="BackgroundColor" Value="#e5354b" />
+                                          <Setter Property="TranslationY" Value="-40" /> 
+                                    </VisualState.Setters>
+                                </VisualState>
+                                 <VisualState Name="UnPressedMenu">
+                                    <VisualState.Setters> 
+                                          <Setter Property="BackgroundColor" Value="Transparent" />
+                                          <Setter Property="TranslationY" Value="-20" /> 
+                                    </VisualState.Setters>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                  </Button> 
+
+              </Grid>
+                
+           </Frame>
+           
+  
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
