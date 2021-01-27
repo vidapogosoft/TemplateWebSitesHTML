@@ -1,0 +1,184 @@
+﻿<html>
+<head>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+    <script>
+
+
+
+        $(document).on("ready", function () {
+            $('#btnSearch').on('click', function () {
+                GetProductById($('#txtIdSearch').val());
+            })
+            $('#btnDelete').on('click', function () {
+                DeleteProductoById($('#txtIdSearch').val());
+            })
+            $('#btnUpdate').on('click', function () {
+                var Producto = new Object();
+                Producto.Id = $('#txtProductoID').val();
+                Producto.Descripcion = $('#txtNombreProducto').val();
+                Producto.Medidas = $('#txtmedidas').val();
+                Producto.Cantidad = $('#txtCantidad').val(); 
+                Producto.Precio = $('#txtPrecio').val();
+                Producto.Marca = $('#txtMarca').val();
+                Producto.Proveedor = $('#txtCategoria').val();
+                Producto.Categoria = $('#txtProveedor').val();
+                UpdateProducto(Producto.customerid, JSON.stringify(Producto));
+            })
+            $('#btnCreate').on('click', function () {
+                var Producto = new Object();
+                Producto.Id = $('#txtProductoID').val();
+                Producto.Descripcion = $('#txtNombreProducto').val();
+                Producto.Medidas = $('#txtmedidas').val();
+                Producto.Cantidad = $('#txtCantidad').val();
+                Producto.Precio = $('#txtPrecio').val();
+                Producto.Marca = $('#txtMarca').val();
+                Producto.Proveedor = $('#txtCategoria').val();
+                Producto.Categoria = $('#txtProveedor').val();
+              
+                CreatePerson(JSON.stringify(Producto));
+            })
+            GetAll();
+        })
+
+    
+
+
+        //Conusulta el producto por el id
+        function GetProductById(idProducto) {
+            var url = '/api/Productos/' + idProducto;
+            $.getJSON(url)
+                .done(function (data) {
+                    $('#txtProductoID').val(data.id);
+                    $('#txtNombreProducto').val(data.Descripcion);
+                    $('#txtmedidas').val(data.Medidas);
+                    $('#txtCantidad').val(data.Cantidad);
+                    $('#txtPrecio').val(data.Precio);
+                    $('#txtMarca').val(data.Marca);
+                    $('#txtCategoria').val(data.Categoria);
+                    $('#txtProveedor').val(data.Proveedor);
+                 
+                })
+                .fail(function (erro) {
+                    ClearForm();
+                });
+        };
+
+ 
+
+        //Actualiza Producto
+        function UpdateProducto(idProducto, Producto) {
+            var url = '/api/Producto/' + idProducto;
+            $.ajax({
+                url: url,
+                type: 'PUT',
+                data: Producto,
+                contentType: "application/json;chartset=utf-8",
+                statusCode: {
+                    200: function () {
+                        GetAll();
+                        ClearForm();
+                        alert('Producto with id: ' + idProducto + ' was updated');
+                    },
+                    404: function () {
+                        ClearForm();
+                        alert('Producto with id: ' + idProducto + ' was not found');
+                    },
+                    400: function () {
+                        ClearForm();
+                        alert('Error');
+                    }
+                }
+            });
+        }
+
+        
+    </script>
+
+
+</head>
+<body>
+    <div class="hero-unit">
+
+        <h2>Obtenie todos los Productos</h2>
+        <div>
+            <table id="tblList" class="table table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Descripcion</th>
+                        <th>Medidas</th>
+                        <th>Cantidad</th>
+                        <th>Precio</th>
+                        <th>Marca</th>
+                        <th>Categoria</th>
+                        <th>Proveedor</th>
+
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+
+
+        <h2>Obtiene un registro</h2>
+        <div>
+            <ul>
+                <li>
+                    <label>Id:</label>
+                    <input type="text" id="txtIdSearch" />
+                    <input type="button" id="btnSearch" value="Buscar" />
+                </li>
+                <li>
+                    <label>ProductoID:</label>
+                    <input type="text" id="txtProductoID" />
+                </li>
+                <li>
+                    <label>Nombre Producto:</label>
+                    <input type="text" id="txtNombreProducto" />
+                </li>
+                <li>
+                    <label>Medidas:</label>
+                    <input type="text" id="txtmedidas" />
+                </li>
+
+                <li>
+                    <label>Cantidad:</label>
+                    <input type="text" id="txtCantidad" />
+                </li>
+                <li>
+                    <label>Precio:</label>
+                    <input type="text" id="txtPrecio" />
+                </li>
+                <li>
+                    <label>Marca:</label>
+                    <input type="text" id="txtMarca" />
+                </li>
+
+                <li>
+                    <label>Categoria:</label>
+                    <input type="text" id="txtCategoria" />
+                </li>
+                <li>
+                    <label>Proveedor:</label>
+                    <input type="text" id="txtProveedor" />
+                </li>
+           
+
+                <li>
+                    <input type="button" id="btnDelete" value="Eliminar" />
+                    <input type="button" id="btnUpdate" value="Modificar" />
+                </li>
+            </ul>
+        </div>
+    </div>
+ 
+
+
+</body>
+
+
+
+</html>
+
+
