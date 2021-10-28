@@ -4,7 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:MountainTripTimeSample"
     xmlns:PanCake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
-    x:Class="MountainTripTimeSample.Views.DetailsPage">
+    x:Class="MountainTripTimeSample.Views.DetailsPage"> 
      
     <ContentPage.Content>
        <Grid>
@@ -58,7 +58,10 @@
 
 
                     <StackLayout Grid.Row="4">
-                        <Button Text="Traducir" Font="20" BackgroundColor="#e5354b" TextColor="White" x:Name="Traductor" Clicked="Traductor_Clicked"></Button>
+                      <Button Text="Traducir" Font="20" BackgroundColor="#e5354b" TextColor="White" x:Name="Traductor"
+                                Clicked = "Traductor_Clicked">
+                        </Button>
+                        
                     </StackLayout>
 
                     <Grid Grid.Row="5">

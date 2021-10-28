@@ -8,6 +8,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MountainTripTimeSample.iOS"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MountainTripTimeSample", "MountainTripTimeSample\MountainTripTimeSample.csproj", "{1BB60A96-907F-43E9-8C9A-1DFB12D57CBC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3556B57A-5399-48C8-8A9E-367264589A38}"
+	ProjectSection(SolutionItems) = preProject
+		DetailsPage.xaml.cs = DetailsPage.xaml.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,7 +36,7 @@ Global
 		{B9332728-36F6-4BC6-A2AB-13EB9B8B7A62}.Release|iPhone.Build.0 = Release|Any CPU
 		{B9332728-36F6-4BC6-A2AB-13EB9B8B7A62}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{B9332728-36F6-4BC6-A2AB-13EB9B8B7A62}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
-		{4B504528-7998-4951-A372-CB08479ADCBC}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{4B504528-7998-4951-A372-CB08479ADCBC}.Debug|Any CPU.ActiveCfg = Debug|iPhone
 		{4B504528-7998-4951-A372-CB08479ADCBC}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{4B504528-7998-4951-A372-CB08479ADCBC}.Debug|iPhone.Build.0 = Debug|iPhone
 		{4B504528-7998-4951-A372-CB08479ADCBC}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
@@ -42,6 +47,7 @@ Global
 		{4B504528-7998-4951-A372-CB08479ADCBC}.Release|iPhone.Build.0 = Release|iPhone
 		{4B504528-7998-4951-A372-CB08479ADCBC}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{4B504528-7998-4951-A372-CB08479ADCBC}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{4B504528-7998-4951-A372-CB08479ADCBC}.Debug|Any CPU.Build.0 = Debug|iPhone
 		{1BB60A96-907F-43E9-8C9A-1DFB12D57CBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1BB60A96-907F-43E9-8C9A-1DFB12D57CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BB60A96-907F-43E9-8C9A-1DFB12D57CBC}.Debug|iPhone.ActiveCfg = Debug|Any CPU
