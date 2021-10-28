@@ -1,0 +1,79 @@
+﻿@model IEnumerable<libreriaMiniMarket.clsProducto>
+
+@{
+    ViewBag.Title = "Productos";
+}
+
+<h2>Consulta General de Productos</h2>
+
+<p>
+
+    @Html.ActionLink("Nuevo Producto", "Create", routeValues: null, htmlAttributes: new { @class = "btn btn-primary", @role = "button" })    
+
+</p>
+<table class="table table-striped table-responsive">
+    <tr style="text-align:justify;">
+        <th>
+            #
+        </th>
+        <th>
+            @*@Html.DisplayNameFor(model => model.DESCRIPCION)*@
+            Descripción
+        </th>
+        <th>
+            Categoría
+        </th>
+        <th>
+            Proveedor
+        </th>
+        <th>
+            Marca
+        </th>
+        <th>
+            Medida
+        </th>
+        <th>
+            Cantidad
+        </th>
+        <th>
+            Precio Unitario
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DESCRIPCION)
+            </td>
+            <td style="text-align:right;">
+                @Html.DisplayFor(modelItem => item.DESCRIPCION_CATEGORIA)
+            </td>
+            <td style="text-align:right;">
+                @Html.DisplayFor(modelItem => item.DESCRIPCION_PROVEEDOR)
+            </td>
+            <td style="text-align:right;">
+                @Html.DisplayFor(modelItem => item.DESCRIPCION_MARCA)
+            </td>
+            <td style="text-align:right;">
+                @Html.DisplayFor(modelItem => item.DESCRIPCION_MEDIDA)
+            </td>
+            <td style="text-align:right;">
+                @Html.DisplayFor(modelItem => item.CANTIDAD)
+            </td>
+            <td style="text-align:right;">
+                @Html.DisplayFor(modelItem => item.PRECIO_UNITARIO)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { id = item.ID }, htmlAttributes: new { @class = "btn btn-danger", @role = "button" }) |
+                @Html.ActionLink("Consultar", "Details", new { id = item.ID }, htmlAttributes: new { @class = "btn btn-info", @role = "button" })
+                @*@Html.ActionLink("Delete", "Delete", new { id = item.ID })*@
+            </td>
+        </tr>
+    }
+
+</table>

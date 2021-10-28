@@ -1,0 +1,63 @@
+﻿@model WebApplication2.Models.NewFolder1.TablaIngreso
+
+@{
+    ViewBag.Title = "Nuevo";
+}
+
+<h2>@ViewBag.Title</h2>
+
+
+@using (Html.BeginForm("Nuevo", "Tabla", FormMethod.Post))
+{
+<div class="row">
+    <div class="col-md-12">
+
+
+        <div>
+            @Html.LabelFor(d => d.Descripcion)
+            @Html.TextBoxFor(d => d.Descripcion, "", new { @class = "form-control" })
+            @Html.ValidationMessageFor(d => d.Descripcion, null, new { @class = "red" })
+        </div>
+        <div>
+            @Html.LabelFor(d => d.Categoria)
+            @Html.TextBoxFor(d => d.Categoria, "", new { @class = "form-control" })
+            @Html.ValidationMessageFor(d => d.Categoria, null, new { @class = "red" })
+        </div>
+        <div>
+            @Html.LabelFor(d => d.Proveedor)<br />
+            @Html.TextBoxFor(d => d.Proveedor, "", new { @class = "form-control" })
+            @Html.ValidationMessageFor(d => d.Proveedor, null, new { @class = "red" })
+        </div>
+        <div>
+            @Html.LabelFor(d => d.Marca)<br />
+            @Html.TextBoxFor(d => d.Marca, "", new { @class = "form-control" })
+            @Html.ValidationMessageFor(d => d.Marca, null, new { @class = "red" })
+        </div>
+        <div>
+            @Html.LabelFor(d => d.Modelo)<br />
+            @Html.TextBoxFor(d => d.Modelo, "", new { @class = "form-control" })
+            @Html.ValidationMessageFor(d => d.Modelo, null, new { @class = "red" })
+        </div>
+        <div>
+            @Html.LabelFor(d => d.Cantidad)<br />
+            @Html.TextBoxFor(d => d.Cantidad, "", new { @class = "form-control" })
+            @Html.ValidationMessageFor(d => d.Cantidad, null, new { @class = "red" })
+        </div>
+        <div>
+            @Html.LabelFor(d => d.PrecioUnitario)<br />
+            @Html.TextBoxFor(d => d.PrecioUnitario, "", new { @class = "form-control" })
+            @Html.ValidationMessageFor(d => d.PrecioUnitario, null, new { @class = "red" })
+        </div>
+
+
+        <br />
+
+        <div style="text-align:right;">
+            <input value="Guardar" class="btn btn-primary" type="submit" />
+        </div>
+
+    </div>
+</div>
+}
+
+

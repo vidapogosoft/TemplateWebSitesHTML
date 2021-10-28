@@ -1,0 +1,73 @@
+﻿@model libreriaMiniMarket.clsProducto
+
+@{
+    ViewBag.Title = "Details";
+}
+
+    <h2>Detalles del producto</h2>
+
+<div>    
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Descripcion: 
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DESCRIPCION)
+        </dd>
+
+        <dt>
+            Categoría:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DESCRIPCION_CATEGORIA)
+        </dd>
+
+        <dt>
+            Proveedor:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DESCRIPCION_PROVEEDOR)
+        </dd>
+
+        <dt>
+            Marca:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DESCRIPCION_MARCA)
+        </dd>
+
+        <dt>
+            Medida:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DESCRIPCION_MEDIDA)
+        </dd>
+
+        <dt>
+            Cantidad:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CANTIDAD)
+        </dd>
+
+        <dt>
+            Precio Unitario:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PRECIO_UNITARIO)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Regresar", "Index")
+</p>

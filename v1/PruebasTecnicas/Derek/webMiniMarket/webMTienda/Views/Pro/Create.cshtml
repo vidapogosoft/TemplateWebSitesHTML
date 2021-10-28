@@ -1,0 +1,115 @@
+﻿@model libreriaMiniMarket.clsProducto
+
+@{
+    ViewBag.Title = "Crear";
+}
+
+<h2>Crear Producto</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.LISTCATEGORIA)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.DESCRIPCION, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.DESCRIPCION, new { htmlAttributes = new { @class = "form-control", @required = "required" } })
+                @Html.ValidationMessageFor(model => model.DESCRIPCION, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ID_CATEGORIA, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.ID_CATEGORIA, (IEnumerable<SelectListItem>)ViewData["misCategorias"], new { style = "height: 30px; width: 300px; text-indent:200px;" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ID_PROVEEDOR, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.ID_PROVEEDOR, (IEnumerable<SelectListItem>)ViewData["misProveedores"], new { style = "height: 30px; width: 300px; text-indent:200px;" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ID_MARCA, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.ID_MARCA, (IEnumerable<SelectListItem>)ViewData["misMarcas"], new { style = "height: 30px; width: 300px; text-indent:200px;" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ID_MEDIDA, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.ID_MEDIDA, (IEnumerable<SelectListItem>)ViewData["misMedidas"], new { style = "height: 30px; width: 300px; text-indent:200px;" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CANTIDAD, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CANTIDAD, new { htmlAttributes = new { @class = "form-control allownumericwithoutdecimal", @required = "required" } })
+                @Html.ValidationMessageFor(model => model.CANTIDAD, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.PRECIO_UNITARIO, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.PRECIO_UNITARIO, new { htmlAttributes = new { @class = "form-control allownumericwithdecimal", @required = "required" } })
+                @Html.ValidationMessageFor(model => model.PRECIO_UNITARIO, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Crear" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Regresar", "Index")
+</div>
+
+@section scripts
+{
+    <script type="text/javascript">
+        //Validaciones importantes
+        $(".allownumericwithdecimal").on("keypress keyup blur", function (event) {
+
+            $(this).val($(this).val().replace(/[^0-9\,]/g, ''));
+            //if ((event.which != 46 || $(this).val().indexOf(',') != -1) && (event.which < 48 || event.which > 57)) {
+            if (($(this).val().indexOf(',') != -1) && (event.which < 48 || event.which > 57)) {
+                event.preventDefault();
+            }
+        });
+
+        $(".allownumericwithoutdecimal").on("keypress keyup blur", function (event) {
+            $(this).val($(this).val().replace(/[^\d].+/, ""));
+            if ((event.which < 48 || event.which > 57)) {
+                event.preventDefault();
+            }
+        });
+
+        function mayus(e) {
+            e.value = e.value.toUpperCase();
+        }
+
+        function confirmation() {
+            if (confirm('Está seguro de eliminar la línea ?')) {
+                return true;
+            } else {
+                return false;
+            }
+        }        
+
+    </script>
+}

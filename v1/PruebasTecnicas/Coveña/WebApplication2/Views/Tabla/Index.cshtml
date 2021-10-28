@@ -1,0 +1,52 @@
+﻿@model List<WebApplication2.Models.NewFolder1.ListProductos>
+
+
+@{
+    ViewBag.Title = "Inventario";
+}
+
+<h2> @ViewBag.Title</h2>
+
+<div class="row" style="text-align: right; padding:5px;">
+    <a href="~/Tabla/Nuevo" class="btn btn-primary">Nuevo</a>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <table class="table">
+            <tr>
+
+                <th>#</th>
+                <th>Descripcion</th>
+                <th>Categoria</th>
+                <th>Proveedor</th>
+                <th>Marca</th>
+                <th>Medidas</th>
+                <th>Cantidad</th>
+                <th>Precio Unitario</th>
+                <th></th>
+            </tr>
+            @foreach (var pr in Model)
+            {
+            <tr>
+                <td>@pr.Id</td>
+                <td>@pr.Descripcion</td>
+                <td>@pr.Categoria</td>
+                <td>@pr.Proveedor</td>
+                <td>@pr.Marca</td>
+                <td>@pr.Modelo</td>
+                <td>@pr.Cantidad</td>
+                <td>@pr.PrecioUnitario</td>
+
+                <td>
+                    <a class="btn btn-default" href="~/Tabla/Editar/@pr.Id">Editar</a>
+                    <a class="btn btn-danger" href="~/Tabla/Eliminar/@pr.Id">Eliminar</a>
+                </td>
+            </tr>
+            }
+
+        </table>
+    </div>
+
+
+</div>
+
