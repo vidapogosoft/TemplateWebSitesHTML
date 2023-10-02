@@ -1,0 +1,329 @@
+
+
+/*** 
+=============================================
+    Faq Style1 Area Css
+=============================================
+***/
+.faq-style1-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 150px 0 120px;
+}
+
+.faq-style1-content{
+    position: relative;
+    display: block;
+    max-width: 540px;
+    width: 100%;
+}
+.faq-style1-content .sec-title {
+    padding-bottom: 46px;
+}
+.faq-style1-content .sec-title h2 {
+    margin: 0;
+}
+.faq-style1-content .shape1 {
+    position: absolute;
+    left: -300px;
+    bottom: -40px;
+    opacity: 0.20;
+    transform: rotate(45deg);
+    -webkit-animation: animation1 5s ease-in infinite;
+    animation: animation1 5s ease-in infinite;
+}
+.accordion-box {
+    position: relative;
+    display: block;
+}
+.accordion-box .shape2 {
+    position: absolute;
+    top: 170px;
+    left: -30px;
+    opacity: 0.30;
+}
+.accordion-box .accordion {
+    position: relative;
+    display: block;
+    padding: 15px 30px 15px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px 0px rgba(12, 21, 41, 0.15);
+    margin-bottom: 30px;
+}
+.accordion-box .accordion .accord-btn {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    padding-left: 0px;
+    padding-right: 30px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    transition: all 500ms ease;
+}
+.accordion-box .accordion .accord-btn h4 {
+    color: #0c1529;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    transition: all 500ms ease;
+}
+.accordion-box .accordion .accord-btn::after {
+    font-family: FontAwesome;
+    position: absolute;
+    content: "\f107";
+    top: 50%;
+    right: 0px;
+    color: #0c1529;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    transform: translateY(-50%);
+    opacity: 1;
+    transition: all 500ms ease 0s;
+}
+.accordion-box .accordion .accord-btn.active {
+    position: relative;
+    background: #ffffff;
+}
+.accordion-box .accordion .accord-btn.active:after{
+    content: "\f106";
+    opacity: 1;
+}
+.accordion-box .accordion .accord-content {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding-top: 0px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: none;
+    z-index: 1;
+}
+.accordion-box .accordion .accord-content.collapsed {
+    display: block;
+}
+.accordion-box .accordion .accord-content p {
+    margin: 0;
+}
+
+
+
+.faq-style1-image-box{
+    position: relative;
+    display: block;
+    max-width: 500px;
+    width: 100%;
+    float: right;
+    padding-left: 80px;
+    padding-bottom: 215px;
+}
+.faq-style1-image-box .shape1 {
+    position: absolute;
+    top: 35px;
+    left: -95px;
+    opacity: 0.20;
+}
+.faq-style1-image-box .shape2 {
+    position: absolute;
+    left: 305px;
+    bottom: 135px;
+    opacity: 0.20;
+}
+.faq-style1-image-box .shape3 {
+    position: absolute;
+    bottom: -150px;
+    right: -300px;
+    opacity: 0.20;
+}
+.faq-style1-image-box .inner{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    max-width: 420px;
+    width: 100%;
+    box-shadow: 0px 30px 80px 0px rgba(12, 21, 41, 0.2);
+}
+.faq-style1-image-box .inner::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, .2);
+    border-radius: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    z-index: 10;
+}
+.faq-style1-image-box:hover .inner::before{
+    -webkit-animation: circle .75s;
+    animation: circle .75s;    
+}
+
+
+.faq-style1-image-box .inner img{
+    width: 100%;
+}
+.faq-style1-image-box .overlay-image{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0px 30px 80px 0px rgba(12, 21, 41, 0.3);
+}
+.faq-style1-image-box .overlay-image img {
+    width: 100%;
+}
+.faq-style1-image-box:hover .overlay-image img{
+    transform: scale(1.1) rotate(5deg);
+}
+
+
+
+/*** 
+=============================================
+    Faq Style2 Area Css
+=============================================
+***/
+.faq-style2-area {
+    position: relative;
+    display: block;
+    background: #fbf3f1;
+    padding: 150px 0 120px;
+}
+.faq-style1-image-box .pattern-box-bg{
+    position: absolute;
+    top: -150px;
+    left: 225px;
+    bottom: -150px;
+    right: -100000px;
+}
+.faq-style2-area .faq-style1-image-box .shape2{
+    opacity: 0.80;
+}
+
+
+
+/*** 
+=============================================
+    Faq Page Area Css
+=============================================
+***/
+.faq-page-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 150px 0 120px;
+}
+.faq-tab-box{
+    position: relative;
+    display: flex;
+}
+.faq-tab-box .shape1{
+    position: absolute;
+    left: -300px;
+    bottom: 100px;
+    opacity: 0.20;
+}
+.faq-tab-box .shape2{
+    position: absolute;
+    top: -100px;
+    left: 32%;
+    opacity: 0.20;
+}
+.faq-tab-box .shape3{
+    position: absolute;
+    top: 150px;
+    right: -150px;
+    opacity: 0.20;
+}
+.faq-style1-content .shape4 {
+    position: absolute;
+    top: 150px;
+    left: -30px;
+    opacity: 0.30;
+}
+
+
+.faq-tab-box .faq-left-box{
+    position: relative;
+    display: block;
+    max-width: 630px;
+    width: 100%;
+    float: left;
+}
+.faq-tab-box .faq-left-box .inner{
+    position: relative;
+    display: block;
+    max-width: 400px;
+    width: 100%;
+}
+.faq-tab-box .faq-left-box .inner .sec-title {
+    padding-bottom: 38px;
+}
+
+
+.faq-tab-box .tabs-content{
+    position: relative;
+    display: block;
+    max-width: 540px;
+    width: 100%;
+    float: left;    
+}
+.faq-tab-box .tab-btns {
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+.faq-tab-box .tab-btns .tab-btn {
+    position: relative;
+    display: block;
+    float: none;
+    margin-bottom: 23px;
+}
+.faq-tab-box .tab-btns .tab-btn:last-child{
+    margin-bottom: 0;
+}
+.faq-tab-box .tab-btns .tab-btn span {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    color: #bcb8b8;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: all 500ms ease;
+    font-family: 'Spartan', sans-serif;
+}
+
+
+
+.faq-tab-box .tabs-content {
+    position: relative;
+    display: block;
+    padding: 0;
+}
+.faq-tab-box .tabs-content .tab{
+	position: relative;
+	padding: 0px;
+	display: none;
+}
+.faq-tab-box .tabs-content .tab.active-tab{
+	display: block;	
+}
+
+
+
+
+
+
+
+
+
+

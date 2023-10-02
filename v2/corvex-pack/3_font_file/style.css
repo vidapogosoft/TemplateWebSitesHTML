@@ -1,0 +1,127 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?e8o2a9');
+  src:  url('fonts/icomoon.eot?e8o2a9#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?e8o2a9') format('truetype'),
+    url('fonts/icomoon.woff?e8o2a9') format('woff'),
+    url('fonts/icomoon.svg?e8o2a9#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+
+
+
+
+
+
+
+.icon-phone-receiver-silhouette:before {
+  content: "\e900";
+}
+.icon-location-marker:before {
+  content: "\e901";
+}
+.icon-envelope:before {
+  content: "\e902";
+}
+.icon-clock:before {
+  content: "\e903";
+}
+.icon-specialist-user:before {
+  content: "\e904";
+}
+.icon-phone-call:before {
+  content: "\e905";
+}
+.icon-chop:before {
+  content: "\e906";
+}
+.icon-meat:before {
+  content: "\e907";
+}
+.icon-meat-1:before {
+  content: "\e908";
+}
+.icon-love:before {
+  content: "\e909";
+}
+.icon-magnifiying-glass:before {
+  content: "\e90a";
+}
+.icon-play-button:before {
+  content: "\e90b";
+}
+.icon-right-quotes-symbol:before {
+  content: "\e90c";
+}
+.icon-star:before {
+  content: "\e90d";
+}
+.icon-star-1:before {
+  content: "\e90e";
+}
+.icon-maps-and-flags:before {
+  content: "\e90f";
+}
+.icon-phone:before {
+  content: "\e910";
+}
+.icon-open-mail:before {
+  content: "\e911";
+}
+.icon-opened:before {
+  content: "\e912";
+}
+.icon-user:before {
+  content: "\e913";
+}
+.icon-shopping-cart:before {
+  content: "\e914";
+}
+.icon-plus:before {
+  content: "\e915";
+}
+.icon-menu:before {
+  content: "\e916";
+}
+.icon-menu-1:before {
+  content: "\e917";
+}
+.icon-left-arrow:before {
+  content: "\e918";
+}
+.icon-right-arrow:before {
+  content: "\e919";
+}
+.icon-call:before {
+  content: "\e91a";
+}
+.icon-chop-1:before {
+  content: "\e91b";
+}
+.icon-24-hours:before {
+  content: "\e91c";
+}
+.icon-minus:before {
+  content: "\e91d";
+}

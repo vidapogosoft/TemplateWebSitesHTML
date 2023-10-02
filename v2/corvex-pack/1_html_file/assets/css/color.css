@@ -1,0 +1,180 @@
+
+
+/*** 
+=====================================================
+	Theme Main Color Css
+=====================================================
+***/
+.thm_clr1,
+.main-menu .navigation>li:hover>a,
+.main-menu .navigation>li.current>a,
+.main-menu .navigation>li>ul>li>a:hover,
+.main-menu .navigation> li> ul> li:hover> a,
+.main-menu .navigation> li> ul> li> ul> li> a:hover,
+.main-menu .navigation> li> .megamenu li:hover a,
+.main-menu .navigation> li> ul> li.dropdown> a:after,
+.mobile-menu .navigation li.current > a,
+.mobile-menu .navigation li > a:hover,
+.outer-search-box-style1 .seach-toggle:hover,
+.outer-search-box-style1 .seach-toggle.active,
+.sticky-header .main-menu .navigation>li:hover>a,
+.sticky-header .main-menu .navigation>li.current>a,
+
+.header-social-link-1 .social-link ul li a:hover,
+.header-contact-info-1 ul li a:hover,
+.sec-title .sub-title h4,
+.single-product-item:hover .title-holder .product-title a,
+.slogan-content-box .button-box .btn-one span.icon_phn,
+.single-sidebar-style2 .sidebar-categories-box li:hover a,
+.review-box-holder .single-review-box .text-holder .top .review-box ul li i,
+.shop-review-carousel.owl-carousel .owl-nav [class*="owl-"]:hover,
+.shop-page-title p b,
+.cart-table-box .cart-table tbody tr td .remove:hover span:before,
+.checkout-area .form .dropdown-item.active, 
+.checkout-area .form .dropdown-item:active, 
+.checkout-area .form .dropdown-item:hover,
+.single-info-box .icon-holder span,
+.single-info-box .title-holder p a:hover,
+.single-shop-content .content-box .top .title-box .review-box ul li i,
+.product-tab-box .review-form .add-rating-box .review-box ul li i,
+.login-register-area .form .right h6 span,
+.single-sidebar .sidebar-categories-box li:hover a,
+.single-blog-style1 .text-holder .blog-title a:hover,
+.single-blog-style1 .text-holder .meta-info li a:hover,
+.breadcrumb-menu ul li.active,
+.breadcrumb-menu ul li a:hover,
+.faq-tab-box .tab-btns .tab-btn.active-btn span, 
+.faq-tab-box .tab-btns .tab-btn:hover span,
+.single-footer-widget .footer-contact-info ul li .text a:hover,
+.footer-widget-links1 li a:hover,
+.footer-menu-style1 ul li a:hover,
+.testimonial-carousel.owl-nav-style-one.owl-theme .owl-nav [class*="owl-"]:hover,
+.single-testimonial-style2 .client-info span {
+    color: #da3c22;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** 
+=====================================================
+	Theme Main Background Color Css
+=====================================================
+***/
+.thm_bgclr1,
+.main-menu .navigation> li> ul> li> a:before,
+.main-menu .navigation> li> ul> li> ul> li a:before,
+.main-menu .navigation> li> .megamenu li> a:before,
+.nav-outer .mobile-nav-toggler .inner,
+.thm-social-link1 ul li a:before,
+.owl-carousel.owl-dot-style1 .owl-dots .owl-dot.active span,
+.styled-pagination li:hover a,
+.styled-pagination li.active a,
+.styled-pagination li.prev a:hover,
+.styled-pagination li.next a:hover,
+.btn-one,
+
+.header-top-style2,
+.header-style2,
+.main-slider .owl-theme .owl-nav .owl-prev:hover,
+.main-slider .owl-theme .owl-nav .owl-next:hover,
+.sec-title .sub-title span.left,
+.sec-title .sub-title span.right,
+.single-features-style1 .dotted-box::before,
+.single-features-style1 .dotted-box::after,
+.single-features-style1 .icon-holder,
+.single-features-style1 .icon-holder .inner:before,
+.single-features-style3 .title-holder .button-box a.btn-one:before,
+.single-product-item .title-holder .button-box .cart-button a.btn-one:before,
+.sidebar-search-box-style2 .search-form input[type="text"],
+.single-sidebar-style2 .sidebar-categories-box li:hover:before,
+.shop-sidebar-wrapper .price-ranger .ui-slider .ui-slider-range,
+.shop-sidebar-wrapper .price-ranger .ranger-min-max-block input[type="submit"],
+.product-quantity-box .right .cart-box .addtocart,
+.product-tab-box .tab-btns .tab-btn.active-btn span, 
+.product-tab-box .tab-btns .tab-btn:hover span,
+.product-tab-box .tab-btns .tab-btn span:before,
+.product-tab-box .review-form form button,
+.login-register-area .form .social-icon li a:hover i,
+.single-info-box .icon-holder:before,
+.single-sidebar .sidebar-categories-box li:hover:before,
+.single-blog-style1 .img-holder .inner:after,
+.single-sidebar .popular-tag li:hover a,
+.single-blog-style1 .text-holder .button-box .btn-one:before,
+.choose-image-box .inner:before,
+.faq-style1-image-box .pattern-box-bg,
+.footer-widget-links1 li a:before,
+.footer-social-link ul li a:before,
+.project-filter li .filter-text:before,
+.single-team-item .social-icon ul li a:hover,
+.single-testimonial-style2 .img-holder .quote-icon {
+    background: #da3c22;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** 
+=====================================================
+	Theme Main Border Color Css
+=====================================================
+***/
+.mobile-menu .navigation li > a:before {
+    border-left: 5px solid #da3c22;
+}
+.btn-one:before{
+    border: 2px solid #da3c22;
+}
+.shop-sidebar-wrapper .price-ranger .ui-slider-handle {
+    border: 6px solid #da3c22;
+}
+
+
+
+.styled-pagination li:hover a,
+.styled-pagination li.active a,
+.styled-pagination li.prev a:hover,
+.styled-pagination li.next a:hover,
+.main-slider .owl-theme .owl-nav .owl-prev:hover,
+.main-slider .owl-theme .owl-nav .owl-next:hover,
+.single-sidebar-style2 .sidebar-categories-box li:hover:before,
+.login-register-area .form .social-icon li a:hover i,
+.single-sidebar .sidebar-categories-box li:hover:before {
+    border-color: #da3c22;
+}
+
+
+
+
+
+
+.fact-counter-box-style2 .single-fact-counter .count-box h2 {
+    text-shadow: -2px -2px 0 #da3c22, 2px -2px 0 #da3c22, -2px 2px 0 #da3c22, 2px 2px 0 #da3c22;
+}
+
+

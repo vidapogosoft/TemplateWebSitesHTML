@@ -1,0 +1,510 @@
+
+
+/*** 
+=============================================
+    Footer area style
+=============================================
+***/
+.footer-area {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 0px 0px 0px;
+    z-index: 1;
+}
+
+
+.footer {
+    position: relative;
+    display: block;
+    padding: 245px 0 100px;
+    z-index: 1;
+}
+.footer .shape1 {
+    position: absolute;
+    top: 175px;
+    left: 100px;
+    opacity: 0.15;
+}
+.footer .shape2 {
+    position: absolute;
+    left: 0;
+    bottom: -35px;
+    opacity: 0.15;
+    right: 0;
+    text-align: center;
+}
+.footer .shape3{
+    position: absolute;
+    top: 170px;
+    right: 55px;
+    opacity: 0.15;
+    -webkit-animation: animation1 5s ease-in infinite;
+    animation: animation1 5s ease-in infinite;
+}
+.footer-bg-shape{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-attachment: scroll;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;    
+}
+
+
+
+.single-footer-widget {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.single-footer-widget .title {
+    position: relative;
+    display: block;
+    margin-top: 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.single-footer-widget .title h3{
+    position: relative;
+    display: block;
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 1.3em;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.single-footer-widget .our-company-info{
+    position: relative;
+    display: block;
+}
+.single-footer-widget .our-company-info .text-box {
+    position: relative;
+    display: block;
+    padding-top: 26px;
+    margin-bottom: 22px;
+}
+.single-footer-widget .our-company-info .text-box p{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    margin: 0;
+}
+
+
+.single-footer-widget .footer-contact-info{
+    position: relative;
+    display: block;
+}
+.single-footer-widget .footer-contact-info ul {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.single-footer-widget .footer-contact-info ul li {
+    position: relative;
+    display: block;
+    padding-left: 35px;
+    margin-bottom: 12px;
+}
+.single-footer-widget .footer-contact-info ul li:last-child{
+    margin-bottom: 0;
+}
+.single-footer-widget .footer-contact-info ul li .icon{
+    position: absolute;
+    top: 3px;
+    left: 0;
+}
+.single-footer-widget .footer-contact-info ul li .icon .marker {
+    position: relative;
+    top: 5px;
+    font-size: 22px;
+}
+
+.single-footer-widget .footer-contact-info ul li .icon span {
+    font-size: 20px;
+}
+
+
+.single-footer-widget .footer-contact-info ul li .text{
+    position: relative;
+}
+.single-footer-widget .footer-contact-info ul li .text p{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    margin: 0;
+}
+.single-footer-widget .footer-contact-info ul li .text a{
+    color:#ffffff;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+
+
+
+.footer-widget-links1{
+    position: relative;
+    display: block;
+}
+.footer-widget-links1 li{
+    position: relative;
+    display: block;
+    margin-bottom: 14px;
+}
+.footer-widget-links1 li:last-child{
+    margin-bottom: 0;
+}
+.footer-widget-links1 li a {
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 500ms ease;
+    line-height: 22px;
+}
+
+.footer-widget-links1 li a:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 1px;
+    content: "";
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.footer-widget-links1 li:hover a:before{
+    width: 100%;    
+}
+
+
+
+
+
+.top-selling-product {
+    position: relative;
+    display: block;
+    margin-top: 7px;
+}
+.top-selling-product li{
+    position: relative;
+    display: block;
+    padding-left: 80px;
+    min-height: 80px;
+    margin-bottom: 20px;
+}
+.top-selling-product li:last-child{
+    margin-bottom: 0;
+}
+.top-selling-product li .img-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+}
+.top-selling-product li .title-box{
+    position: relative;
+    display: block;
+    padding-left: 18px;
+}
+.top-selling-product li .title-box h5{
+    position: relative;
+    top: -4px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+}
+.top-selling-product li .title-box h5 a{
+    color: #ffffff;
+}
+.top-selling-product li .title-box .review-box {
+    position: relative;
+    display: block;
+    margin-top: 3px;
+    margin-bottom: 7px;
+}
+.top-selling-product li .title-box .review-box a {
+    color: #fbb419;
+    font-size: 14px;
+}
+.top-selling-product li .title-box .rate-box{
+    position: relative;
+    display: block;
+}
+.top-selling-product li .title-box .rate-box p {
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    margin: 0;
+}
+.top-selling-product li .title-box .rate-box p del{
+    color: #ffffff;
+    opacity: 0.70;
+}
+
+
+
+
+
+
+
+
+.footer-subscribe-box{
+    position: relative;
+    display: block;
+    background: #0c1529;
+    padding-bottom: 100px;
+}
+.subscribe-content-box {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 30px 30px 30px;
+}
+.subscribe-content-box .subscribe-title{
+    position: relative;
+    display: block;
+}
+.subscribe-content-box .subscribe-title h3 {
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 800;
+    padding: 12px 0 13px;
+}
+
+.subscribe-box {
+    position: relative;
+    display: block;
+    max-width: 560px;
+    width: 100%;
+}
+.subscribe-form {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.subscribe-form input[type="email"] {
+    position: relative;
+    display: block;
+    max-width: 320px;
+    width: 100%;
+    height: 55px;
+    background: transparent;
+    border: 0px solid rgba(255, 255, 255, 0.20);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.10);
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    transition: all 500ms ease;
+    font-family: 'Rubik', sans-serif;
+}
+.subscribe-form input::-webkit-input-placeholder {
+    color: #ffffff;
+}
+.subscribe-form input:-moz-placeholder {
+    color: #ffffff;
+}
+.subscribe-form input::-moz-placeholder {
+    color: #ffffff;
+}
+.subscribe-form input:-ms-input-placeholder {
+    color: #ffffff;
+}
+.subscribe-form button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    line-height: 55px;
+    padding-left: 45px;
+    padding-right: 45px;
+    transition: all 300ms ease 100ms;
+}
+
+
+
+
+
+.footer-bottom {
+    position: relative;
+    display: block;
+    background: #091020;
+    padding: 25px 0;
+}
+.footer-bottom .outer-box {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.copyright-text {
+    position: relative;
+    display: block;
+}
+.copyright-text p{
+    color:#ffffff;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    margin: 0;
+}
+.copyright-text p a {
+    transition: all 500ms ease;
+    padding-right: 3px;
+}
+.copyright-text p a:hover{
+    color: rgba(255, 255, 255);    
+}
+
+
+.footer-social-link {
+    position: relative;
+    display: block;
+}
+.footer-social-link ul{
+    position: relative;
+}
+.footer-social-link ul li{
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+.footer-social-link ul li:last-child{
+    margin-right: 0;
+}
+.footer-social-link ul li a{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 40px;
+    text-align: center;
+    z-index: 1;
+    transition: all 500ms ease;
+}
+.footer-social-link ul li a:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: "";
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(0.0);
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.footer-social-link ul li a:hover:before{
+    transform: scaleX(1.0); 
+}
+.footer-social-link ul li a:hover{
+    color: #ffffff;
+}
+
+
+
+.footer-menu-style1{
+    position: relative;
+    display: block;
+}
+.footer-menu-style1 ul{
+    overflow: hidden;
+}
+.footer-menu-style1 ul li{
+    position: relative;
+    display: inline-block;
+    float: left;
+    padding-right: 16px;
+    margin-right: 15px;
+}
+.footer-menu-style1 ul li:last-child{
+    margin-right: 0;
+    padding-right: 0;
+}
+.footer-menu-style1 ul li:before {
+    position: absolute;
+    top: 4px;
+    right: 0;
+    bottom: 4px;
+    width: 1px;
+    background: rgba(255, 255, 255, 0.30);
+    content: "";
+}
+.footer-menu-style1 ul li:last-child:before{
+    display: none;
+}
+.footer-menu-style1 ul li a{
+    color: #ffffff;
+    font-size: 16px;
+    transition: all 500ms ease;
+}
+
+
+
+
+/*** 
+=============================================
+    Footer Style2 Area
+=============================================
+***/
+.footer.style2 {
+    background: #0c1529;
+    padding-top: 130px;
+}
+.footer.style2 .shape1 {
+    top: 70px;
+}
+.footer.style2 .shape3 {
+    top: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

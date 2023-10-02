@@ -1,0 +1,1516 @@
+
+@media only screen and (max-width: 5000px){
+.boxed_wrapper_box_page{
+    overflow-x: hidden;
+}
+ 
+
+}
+
+
+/* Large Layout: 1200px. */
+@media only screen and (min-width: 1200px){
+
+
+    
+
+ 
+    
+}
+
+
+
+/* Medium screen  */ 
+@media only screen and (min-width: 992px) and (max-width: 1199px) { 
+  
+/*** Main Header Style1 Area Css ***/     
+.header-middle .nav-outer .mobile-nav-toggler {
+    padding: 35px 0;
+}    
+    
+/*** About Style1 Area Css ***/        
+.about-style1-image-box {
+    max-width: 630px;
+    padding-left: 0px;
+} 
+.about-style1-image-box .main-image {
+    max-width: 520px;
+    padding-bottom: 75px;
+}    
+.about-style1-content-box {
+    margin-top: 40px;
+    margin-left: 0px;
+}    
+    
+/*** Product Style1 Area Css ***/      
+.product-style1-area .layer-outer {
+    top: -170px;
+}    
+       
+/*** Faq Style1 Area Css ***/ 
+.faq-style1-area {
+    padding: 150px 0 150px;
+}    
+.faq-style1-content {
+    max-width: 100%;
+    width: 100%;
+}    
+.faq-style1-image-box {
+    max-width: 500px;
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}    
+    
+/*** Testimonial Style1 Area Css ***/     
+.testimonial-style1-image-box {
+    width: 100%;
+    float: none;
+}    
+.testimonial-style1-content {
+    width: 100%;
+    float: none;
+}    
+.testimonial-style1-content .inner-content {
+    max-width: 100%;
+    width: 100%;
+    padding: 90px 60px 0;
+    padding-right: 60px;
+}    
+   
+/*** Footer Area Css ***/ 
+.subscribe-box {
+    max-width: 510px;
+}    
+    
+/*** Main Header Style Two Css ***/         
+.header-style2-middle {
+    width: 100px;
+}    
+    
+/*** Features Style2 Area Css ***/       
+.features-style2-box {
+    margin-left: 0px;
+}    
+.single-features-style2 {
+    padding-left: 100px;
+    padding-right: 30px;
+}        
+  
+/*** Features Style2 Area Css ***/        
+.about-style2-content-box {
+    max-width: 100%;
+    width: 100%;
+}   
+.about-style2-image-box {
+    max-width: 510px;
+    float: none;
+    margin-top: 50px;
+}    
+    
+/*** Faq Style2 Area Css ***/  
+.faq-style2-area {
+    padding: 150px 0 150px;
+}    
+.faq-style2-area .faq-style1-image-box {
+    margin-top: 170px;
+}    
+    
+/*** Main Header Style Three Css ***/  
+.header-style3 .outer-box {
+    padding-left: 30px;
+}    
+.header-style3-middle {
+    width: 200px;
+}    
+.header-style3-middle .nav-outer .mobile-nav-toggler {
+    padding: 35px 0;
+} 
+    
+/*** About Style3 Area Css ***/  
+.about-style3-content-box {
+    max-width: 100%;
+}    
+.about-style3-image-box {
+    padding-left: 0px;
+    max-width: 530px;
+    margin-top: 70px;
+}    
+    
+/*** Choose Area Css ***/  
+.choose-area .container-fullwidth {
+    display: block;
+}    
+.choose-image-box {
+    width: 100%;
+    float: none;
+    max-width: 900px;
+    margin: 0 auto;
+}   
+.choose-content-box {
+    float: none;
+    padding-left: 0px;
+    max-width: 900px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 140px;
+}
+ 
+/*** Testimonial Style2 Area Css ***/ 
+.testimonial-style2-area {
+    min-height: 495px;
+    padding: 150px 0 150px;
+}    
+.testimonial-style2-area .testimonial-style1-content .inner-content {
+    max-width: 100%;
+    width: 100%;
+    margin-top: 60px;
+}    
+    
+/*** Gallery Area Css ***/     
+.single-gallery-item {
+    margin-bottom: 30px;
+}    
+    
+/*** Blog Style1 Area Css ***/        
+.blog-style1-area.pdtop120 {
+    padding-top: 120px;
+}    
+    
+/*** Single Shop Area Css ***/       
+.single-shop-content .content-box {
+    margin-top: 46px;
+    padding-left: 0px;
+}    
+    
+/*** Login Register Area Css ***/
+.login-register-area {
+    padding-top: 143px;
+    padding-bottom: 150px;
+}    
+.login-register-area .form.register {
+    padding-top: 60px;
+}    
+    
+/*** Blog Page Css ***/    
+.blog-details-image-box .single-box {
+    margin-bottom: 20px;
+}    
+.categories-social-share-box {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+/*** Info Style1 Area Css ***/       
+.single-info-box {
+    padding: 60px 15px 52px;
+    padding-right: 15px;
+}    
+.single-info-box .title-holder {
+    padding-left: 15px;
+}
+.single-info-box .title-holder p {
+    font-size: 14px;
+}    
+
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+}
+
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+  
+/*** Main Header Style1 Area Css ***/        
+.header-top {
+    display: none;
+}
+.header-middle .nav-outer .mobile-nav-toggler {
+    padding: 35px 0;
+}        
+    
+/*** About Style1 Area Css ***/        
+.about-style1-image-box {
+    max-width: 630px;
+    padding-left: 0px;
+} 
+.about-style1-image-box .main-image {
+    max-width: 520px;
+    padding-bottom: 75px;
+}    
+.about-style1-content-box {
+    margin-top: 40px;
+    margin-left: 0px;
+}      
+    
+/*** Product Style1 Area Css ***/      
+.product-style1-area .layer-outer {
+    top: -150px;
+}    
+       
+/*** Faq Style1 Area Css ***/ 
+.faq-style1-area {
+    padding: 150px 0 150px;
+}    
+.faq-style1-content {
+    max-width: 100%;
+    width: 100%;
+}    
+.faq-style1-image-box {
+    max-width: 500px;
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}       
+    
+/*** Testimonial Style1 Area Css ***/     
+.testimonial-style1-image-box {
+    width: 100%;
+    float: none;
+}    
+.testimonial-style1-content {
+    width: 100%;
+    float: none;
+}    
+.testimonial-style1-content .inner-content {
+    max-width: 100%;
+    width: 100%;
+    padding: 60px 60px 0;
+    padding-right: 60px;
+}    
+    
+/*** Slogan Area Css ***/       
+.slogan-content-box {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}      
+.slogan-content-box .title-box {
+    padding-bottom: 17px;
+}
+
+/*** Fact Counter Area Css ***/        
+.single-fact-counter {
+    max-width: 50%;
+}    
+    
+/*** Footer Area Css ***/    
+.single-footer-widget.pdtop {
+    padding-top: 40px;
+}     
+.subscribe-content-box {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 30px 30px 30px;
+    text-align: center;
+}   
+.subscribe-content-box .subscribe-title h3 {
+    padding: 0px 0 21px;
+}    
+.footer-bottom .outer-box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}    
+.footer-social-link {
+    margin: 13px 0 13px;
+}    
+    
+/*** Main Header Style Two Css ***/  
+.header-top-style2 {
+    display: none;
+}    
+.header-style2-middle {
+    width: 100px;
+}    
+     
+/*** Features Style2 Area Css ***/       
+.features-style2-box {
+    margin-left: 0px;
+    padding: 90px 0 90px;
+}    
+.single-features-style2 {
+    padding-left: 100px;
+    padding-right: 40px;
+}  
+.features-style2-box ul {
+    display: block;
+}    
+.features-style2-box ul li {
+    -ms-flex: 0 0 100.000000%;
+    flex: 0 0 100.000000%;
+    max-width: 100.000000%;
+    margin-bottom: 40px;
+}    
+.features-style2-box ul li:last-child{
+    margin-bottom: 0;
+}    
+    
+/*** Features Style2 Area Css ***/        
+.about-style2-content-box {
+    max-width: 100%;
+    width: 100%;
+}   
+.about-style2-image-box {
+    max-width: 510px;
+    float: none;
+    margin-top: 50px;
+}    
+    
+/*** Faq Style2 Area Css ***/  
+.faq-style2-area {
+    padding: 150px 0 150px;
+}     
+.faq-style2-area .faq-style1-image-box {
+    margin-top: 170px;
+}      
+ 
+    
+    
+    
+    
+    
+/*** Main Header Style Three Css ***/ 
+.header-style3 .container-fluid {
+    padding: 0 20px;
+}    
+.header-style3 .outer-box {
+    padding-left: 30px;
+}    
+.header-style3-middle {
+    width: 170px;
+}    
+.header-style3-middle .nav-outer .mobile-nav-toggler {
+    padding: 35px 0;
+} 
+    
+/*** Features Style3 Area Css ***/     
+.features-style3-box ul li {
+    -ms-flex: 0 0 100.000000%;
+    flex: 0 0 100.000000%;
+    max-width: 100.000000%;
+    border-right: 0px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}    
+.features-style3-box ul li:last-child{
+    border-bottom: none;
+}    
+    
+/*** About Style3 Area Css ***/  
+.about-style3-content-box {
+    max-width: 100%;
+}    
+.about-style3-image-box {
+    padding-left: 0px;
+    max-width: 530px;
+    margin-top: 70px;
+}    
+   
+/*** Choose Area Css ***/  
+.choose-area .container-fullwidth {
+    display: block;
+}    
+.choose-image-box {
+    width: 100%;
+    float: none;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 30px;
+}   
+.choose-content-box {
+    float: none;
+    max-width: 900px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 140px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+   
+/*** Testimonial Style2 Area Css ***/ 
+.testimonial-style2-area {
+    min-height: 495px;
+    padding: 150px 0 150px;
+}    
+.testimonial-style2-area .testimonial-style1-content .inner-content {
+    max-width: 100%;
+    width: 100%;
+    margin-top: 60px;
+}       
+    
+/*** Gallery Area Css ***/     
+.single-gallery-item {
+    margin-bottom: 30px;
+}    
+    
+/*** Blog Style1 Area Css ***/        
+.blog-style1-area.pdtop120 {
+    padding-top: 120px;
+}        
+    
+    
+/*** Shop Area Css ***/ 
+.shop-area {
+    padding: 150px 0 150px;
+}    
+.shop-sidebar-wrapper {
+    padding-top: 70px;
+}    
+    
+/*** Single Shop Area Css ***/       
+.single-shop-content .content-box {
+    margin-top: 46px;
+    padding-left: 0px;
+}
+    
+/*** Cart Area Css ***/     
+.cart-button-box .update-cart {
+    position: relative;
+    display: block;
+    float: none;
+    margin-top: 20px;
+}    
+    
+/*** Checkout Area Css ***/         
+.order-info {
+    margin-top: 70px;
+}    
+    
+/*** Login Register Area Css ***/
+.login-register-area {
+    padding-top: 143px;
+    padding-bottom: 150px;
+}    
+.login-register-area .form.register {
+    padding-top: 60px;
+}    
+.login-register-area .form .social-icon {
+    float: left;
+    margin-top: 15px;
+    margin-right: 0;
+}        
+.login-register-area .form .social-icon .login-with {
+    position: static;
+} 
+    
+/*** Faq Page Area Css ***/ 
+.faq-tab-box {
+    position: relative;
+    display: block;
+}    
+.faq-tab-box .faq-left-box {
+    max-width: 100%;
+    width: 100%;
+    float: none;
+}    
+.faq-tab-box .tabs-content {
+    margin-top: 50px;
+    max-width: 100%;
+    width: 100%;
+    float: none;
+}    
+    
+/*** Blog Page Css ***/ 
+.blog-standard-area {
+    padding: 150px 0 135px;
+}    
+.sidebar-wrapper {
+    margin-top: 100px;
+    float: none;
+}    
+    
+.blog-details-image-box .single-box {
+    margin-bottom: 20px;
+}    
+.categories-social-share-box {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+}
+        
+   
+    
+    
+    
+    
+    
+    
+    
+ 
+    
+}
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+.sec-title {}  
+.sec-title h2 {
+    font-size: 36px; 
+    font-weight: 700;
+    margin: 0 0 20px;
+}    
+.sec-title h2 br{
+    display: none;
+} 
+.sec-title p br{
+    display: none;
+}    
+    
+
+/*** Main Header Style1 Area Css ***/        
+.header-top {
+    display: none;
+}
+.header-right {
+    display: none;
+} 
+.header-left .logo {
+    margin-right: 0px;
+} 
+.header-middle {
+    float: right;
+}    
+.header-middle .nav-outer .mobile-nav-toggler {
+    padding: 35px 0;
+}        
+ 
+/*** About Style1 Area Css ***/        
+.about-style1-image-box {
+    max-width: 630px;
+    padding-left: 0px;
+} 
+.about-style1-image-box .main-image {
+    max-width: 520px;
+    padding-bottom: 75px;
+}    
+.about-style1-content-box {
+    margin-top: 60px;
+    margin-left: 0px;
+}    
+   
+/*** Product Style1 Area Css ***/      
+.product-style1-area .layer-outer {
+    top: 0;
+    background-size: auto;
+    background-color: #fbf3f1;
+} 
+  
+/*** Faq Style1 Area Css ***/ 
+.faq-style1-area {
+    padding: 150px 0 150px;
+}    
+.faq-style1-content {
+    max-width: 100%;
+    width: 100%;
+}    
+.faq-style1-image-box {
+    max-width: 500px;
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}       
+    
+/*** Testimonial Style1 Area Css ***/     
+.testimonial-style1-image-box {
+    width: 100%;
+    float: none;
+}
+.testimonial-style1-image-box ul li {
+    float: none;
+    padding: 0 20px 20px;
+    width: 100%;
+}    
+.testimonial-style1-content {
+    width: 100%;
+    float: none;
+}    
+.testimonial-style1-content .inner-content {
+    max-width: 100%;
+    width: 100%;
+    padding: 40px 20px 0;
+    padding-right: 20px;
+}    
+   
+/*** Slogan Area Css ***/       
+.slogan-content-box {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}      
+.slogan-content-box .title-box {
+    padding-bottom: 17px;
+}    
+.slogan-content-box .title-box h2 br{
+    display: none;
+}        
+    
+/*** Fact Counter Area Css ***/        
+.single-fact-counter {
+    max-width: 100%;
+}       
+    
+/*** Footer Area Css ***/ 
+.single-footer-widget.marbtm {
+    margin-bottom: 40px;
+}    
+.single-footer-widget.pdtop {
+    padding-top: 40px;
+}     
+.subscribe-content-box {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 30px 30px 30px;
+    text-align: center;
+}   
+.subscribe-content-box .subscribe-title h3 {
+    padding: 0px 0 11px;
+}    
+.subscribe-form input[type="email"] {
+    max-width: 100%;
+    width: 100%;
+    height: 55px;
+}    
+.subscribe-form button {
+    position: relative;
+    margin-top: 20px;
+}    
+    
+.footer-bottom .outer-box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}    
+.footer-social-link {
+    margin: 13px 0 13px;
+}      
+    
+/*** Main Header Style Two Css ***/  
+.header-top-style2 {
+    display: none;
+}
+.header-style2-right {
+    display: none;
+}    
+.header-style2-middle {
+    width: 70px;
+    float: right;
+}    
+       
+/*** Features Style2 Area Css ***/       
+.features-style2-box {
+    margin-left: 0px;
+    padding: 90px 0 90px;
+}    
+.single-features-style2 {
+    padding-left: 100px;
+    padding-right: 30px;
+}  
+.features-style2-box ul {
+    display: block;
+}    
+.features-style2-box ul li {
+    -ms-flex: 0 0 100.000000%;
+    flex: 0 0 100.000000%;
+    max-width: 100.000000%;
+    margin-bottom: 40px;
+}    
+.features-style2-box ul li:last-child{
+    margin-bottom: 0;
+}    
+.single-features-style2 .title-holder {
+    padding-left: 20px;
+}    
+  
+/*** Features Style2 Area Css ***/        
+.about-style2-content-box {
+    max-width: 100%;
+    width: 100%;
+}   
+.about-style2-image-box {
+    max-width: 510px;
+    float: none;
+    margin-top: 50px;
+}    
+.about-style2-image-box .overlay-content-box {
+    left: 0;
+    bottom: 0;
+}        
+    
+/*** Faq Style2 Area Css ***/ 
+.faq-style2-area {
+    padding: 150px 0 150px;
+}     
+.faq-style2-area .faq-style1-image-box {
+    margin-top: 170px;
+}      
+.faq-style1-image-box .pattern-box-bg {
+    left: 125px;
+}    
+  
+    
+    
+
+/*** Main Header Style Three Css ***/ 
+.header-style3 .container-fluid {
+    padding: 0 20px;
+}    
+.header-style3 .outer-box {
+    padding-left: 20px;
+}    
+.header-style3-middle {
+    width: 90px;
+    float: right;
+}   
+.header-style3-middle .nav-outer .mobile-nav-toggler {
+    padding: 35px 0;
+} 
+        
+.header-style3-right {
+    display: none;
+}    
+    
+/*** Features Style3 Area Css ***/     
+.features-style3-box ul li {
+    -ms-flex: 0 0 100.000000%;
+    flex: 0 0 100.000000%;
+    max-width: 100.000000%;
+    border-right: 0px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}    
+.features-style3-box ul li:last-child{
+    border-bottom: none;
+}    
+    
+/*** About Style3 Area Css ***/  
+.about-style3-content-box {
+    max-width: 100%;
+}    
+.about-style3-image-box {
+    padding-left: 0px;
+    max-width: 530px;
+    margin-top: 70px;
+}    
+.about-style3-image-box .main-image {
+    margin-right: 0;
+}       
+    
+    
+/*** Choose Area Css ***/  
+.choose-area .container-fullwidth {
+    display: block;
+}    
+.choose-image-box {
+    width: 100%;
+    float: none;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}   
+.choose-content-box {
+    float: none;
+    max-width: 900px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 140px;
+    padding-left: 20px;
+    padding-right: 20px;
+}    
+.choose-content-box ul li .title-holder {
+    padding-left: 20px;
+}    
+.choose-content-box ul li .title-holder h3 {
+    font-size: 22px;
+}    
+    
+/*** Testimonial Style2 Area Css ***/ 
+.testimonial-style2-area {
+    min-height: 495px;
+    padding: 150px 0 150px;
+}    
+.testimonial-style2-area .testimonial-style1-content .inner-content {
+    max-width: 100%;
+    width: 100%;
+    margin-top: 60px;
+}       
+.testimonial-style2-image-box .quote-icon {
+    bottom: 0px;
+    right: 0;
+}    
+    
+/*** Gallery Area Css ***/     
+.single-gallery-item {
+    margin-bottom: 30px;
+}    
+    
+/*** Blog Style1 Area Css ***/        
+.blog-style1-area.pdtop120 {
+    padding-top: 120px;
+}        
+    
+    
+/*** Shop Area Css ***/ 
+.shop-area {
+    padding: 150px 0 150px;
+}    
+.shop-sidebar-wrapper {
+    padding-top: 70px;
+}    
+    
+/*** Single Shop Area Css ***/       
+.single-shop-content .content-box {
+    margin-top: 46px;
+    padding-left: 0px;
+}      
+.product-quantity-box .right .cart-box .addtocart {
+    font-size: 15px;
+    padding: 0 13px;
+}    
+.review-box-holder .single-review-outer-box {
+    padding: 34px 20px 32px;
+}    
+    
+/*** Cart Area Css ***/     
+.cart-button-box .update-cart {
+    position: relative;
+    display: block;
+    float: none;
+    margin-top: 20px;
+}    
+.cart-button-box .apply-coupon .inner {
+    padding-left: 0px;
+}    
+.cart-button-box .apply-coupon input[type="text"] {
+    position: relative;
+}    
+.cart-button-box .apply-coupon .apply-coupon-button button {
+    margin-top: 20px;
+    margin-left: 0px;
+}    
+    
+/*** Checkout Area Css ***/         
+.order-info {
+    margin-top: 70px;
+}        
+    
+/*** Login Register Area Css ***/
+.login-register-area {
+    padding-top: 143px;
+    padding-bottom: 150px;
+}    
+.login-register-area .form.register {
+    padding-top: 60px;
+}    
+.login-register-area .form .social-icon {
+    float: left;
+    margin-top: 15px;
+    margin-right: 0;
+}        
+.login-register-area .form .social-icon .login-with {
+    position: static;
+}    
+.login-register-area .form .right {
+    margin-top: 15px;
+    text-align: left;
+}    
+    
+/*** Faq Page Area Css ***/ 
+.faq-tab-box {
+    position: relative;
+    display: block;
+}    
+.faq-tab-box .faq-left-box {
+    max-width: 100%;
+    width: 100%;
+    float: none;
+}    
+.faq-tab-box .tabs-content {
+    margin-top: 40px;
+    max-width: 100%;
+    width: 100%;
+    float: none;
+}    
+
+/*** Error Page Area Css ***/     
+.error-content .title {
+    font-size: 142px;
+    line-height: 150px;
+    margin: 12px 0 8px;
+}    
+    
+/*** Blog Page Css ***/ 
+.blog-standard-area {
+    padding: 150px 0 135px;
+}    
+.sidebar-wrapper {
+    margin-top: 100px;
+    float: none;
+}    
+        
+.blog-details-image-box .single-box {
+    margin-bottom: 20px;
+}    
+.categories-social-share-box {
+    display: block;
+}
+.post-categories-box {
+    display: block;
+}        
+.post-categories-box .categories-items {
+    padding-left: 0px;
+}    
+.post-categories-box .title h3 {
+    padding: 0px 0 3px;
+}    
+    
+/*** Info Style1 Area Css ***/       
+.single-info-box {
+    padding: 60px 15px 52px;
+    padding-right: 15px;
+}    
+.single-info-box .title-holder {
+    padding-left: 15px;
+}   
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+   
+    
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px){
+    
+.main-menu .navigation > li > ul,
+.main-menu .navigation > li > ul > li > ul,
+.main-menu .navigation > li .megamenu {
+    display:block !important;
+    visibility:hidden;
+    opacity:0;
+}
+    
+    
+    
+    
+}
+
+
+
+
+
+@media only screen and (max-width: 1199px) {
+
+    
+/*** 
+=============================================
+    Header Style One Css
+=============================================
+***/ 
+    
+    
+
+    
+    
+
+    
+.main-header .main-menu {
+    position: relative;
+    display: block;
+    width: 100%;
+    float: none;
+}   
+.main-header .nav-outer .main-menu,
+.mainmenu-area .nav-outer .main-menu,
+.sticky-header{
+    display: none !important;
+}
+.nav-outer .mobile-nav-toggler{
+    display: block;
+}
+.mobile-nav-toggler .icon-bar {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    height: 2px;
+    width: 30px;
+    margin: 7px 5px;
+} 
+    
+
+    
+    
+    
+    
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1500px) and (max-width: 1870px) {  
+/*** Main Header Style Two Css ***/     
+.header-style2-middle {
+    width: 60%;
+}
+    
+/*** Features Style2 Area Css ***/        
+.features-style2-box {
+    margin-left: 0px;
+}    
+    
+/*** Main Header Style Three Css ***/      
+.header-style3-middle {
+    width: 60%;
+}    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1499px) {  
+
+/*** Main Header Style Two Css ***/     
+.header-style2-middle {
+    width: 52%;
+}
+    
+/*** Features Style2 Area Css ***/       
+.features-style2-box {
+    margin-left: 0px;
+}    
+.single-features-style2 {
+    padding-left: 100px;
+    padding-right: 40px;
+}        
+  
+/*** Main Header Style Three Css ***/ 
+.header-style3 .outer-box {
+    padding-left: 30px;
+}    
+.header-style3 .container-fluid {
+    padding: 0 20px;
+}    
+.header-style3-middle {
+    width: 60%;
+}       
+.header-style3-right .inner {
+    width: 170px;
+}    
+.header-style3-right .hidden-content-button {
+    width: 80px;
+}    
+    
+
+/*** Choose Area Css ***/  
+.choose-area .container-fullwidth {
+    display: block;
+}    
+.choose-image-box {
+    width: 100%;
+    float: none;
+    max-width: 900px;
+    margin: 0 auto;
+}   
+.choose-content-box {
+    float: none;
+    padding-left: 0px;
+    max-width: 900px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 140px;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1390px) { 
+ 
+/*** Main Slider Css ***/     
+.main-slider .auto-container {
+    padding: 0px 120px;
+} 
+
+/*** Main Slider Style2 Css ***/      
+.main-slider.style2 .content .big-title h2 {
+    font-size: 70px;
+}    
+
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) { 
+
+/*** Main Slider Css ***/     
+.main-slider .auto-container {
+    padding: 0px 120px;
+}
+ 
+.main-slider.style1 .content .big-title {
+    margin-bottom: 31px;
+}    
+.main-slider.style1 .content .big-title h2 {
+    font-size: 48px;
+    line-height: 1.2em;
+} 
+    
+ 
+/*** Main Slider Style2 Css ***/      
+.main-slider.style2 .content .big-title h2 {
+    font-size: 50px;
+    line-height: 1.3em;
+    font-weight: 700;
+}    
+    
+    
+    
+    
+    
+
+  
+    
+    
+    
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    
+/*** Main Slider Css ***/   
+.main-slider .auto-container {
+    padding: 0px 120px;
+}
+.main-slider .slide {
+    padding: 153px 0px 330px;
+} 
+.main-slider.style1 .content .big-title {
+    margin-bottom: 24px;
+}    
+.main-slider.style1 .content .big-title h2 {
+    font-size: 38px;
+    line-height: 1.2em;
+} 
+.main-slider.style1 .content .big-title h2 br{
+    display: none;
+}        
+.main-slider.style1 .content .btns-box {
+    padding-top: 35px;
+}
+    
+
+/*** Main Slider Style2 Css ***/      
+.main-slider.style2 .content .big-title h2 {
+    font-size: 40px;
+    line-height: 1.3em;
+    font-weight: 700;
+}    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+}
+
+
+
+
+
+@media only screen and (min-width: 500px) and (max-width: 767px) { 
+    
+/*** Main Slider Css ***/    
+.main-slider .auto-container {
+    padding: 0px 50px;
+    padding-right: 50px;
+}
+.main-slider.style1 {
+    padding: 0 20px;
+}    
+.main-slider.style1 .auto-container {
+    padding: 0px 30px;
+    padding-right: 30px;
+}    
+.main-slider.style1 .slide {
+    padding: 147px 0px 330px;
+}    
+.main-slider.style1 .content .big-title {
+    margin-bottom: 23px;
+}    
+.main-slider.style1 .content .big-title h2 {
+    font-size: 38px;
+    line-height: 1.3em;
+    font-weight: 600;
+} 
+.main-slider.style1 .content .big-title h2 br{
+    display: none;
+}        
+.main-slider.style1 .content .btns-box {
+    padding-top: 35px;
+}
+.main-slider.style1 .owl-theme .owl-nav {
+    display: none;
+}
+   
+ 
+.slider-content-box {
+    left: 50px;
+    bottom: 0;
+    right: 50px;
+    max-width: initial;
+    width: auto;
+    margin: 0;
+}    
+.slider-content-box .inner-content {
+    float: right;
+    padding: 47px 30px 41px;
+}    
+.slider-content-box .inner-content .text-box, 
+.slider-content-box .inner-content .image-box {
+    display: block;
+} 
+.slider-content-box .inner-content .text-box {
+    width: 100%;
+    padding-right: 0px;
+}  
+.slider-content-box .inner-content .text-box h3 {
+    margin: 0 0 12px;
+}    
+.slider-content-box .inner-content .image-box{
+    display: none;
+}    
+    
+    
+
+/*** Main Slider Style2 Css ***/      
+.main-slider.style2 .content .big-title h2 {
+    font-size: 30px;
+    line-height: 1.3em;
+    font-weight: 700;
+}    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+}
+
+
+
+@media only screen and (max-width: 499px) {
+    
+/*** Main Slider Css ***/ 
+.main-slider .auto-container {
+    padding: 0px 30px;
+}   
+.main-slider .owl-theme .owl-nav .owl-prev {
+    display: none;
+}    
+.main-slider .owl-theme .owl-nav .owl-next {
+    display: none;
+} 
+.main-slider.style1 {
+    padding: 0 0px;
+}    
+.main-slider.style1 .auto-container {
+    padding: 0px 30px;
+    padding-right: 30px;
+}    
+.main-slider.style1 .slide {
+    padding: 146px 0px 200px;
+}   
+      
+.main-slider.style1 .content .big-title {
+    margin-bottom: 22px;
+}    
+.main-slider.style1 .content .big-title h2 {
+    font-size: 38px;
+    line-height: 1.3em;
+    font-weight: 500;
+} 
+.main-slider.style1 .content .big-title h2 br{
+    display: none;
+}    
+.main-slider.style1 .content .btns-box {
+    padding-top: 35px;
+}    
+.slider-content-box {
+    display: none;
+}
+    
+    
+/*** Main Slider Style2 Css ***/      
+.main-slider.style2 .content .big-title h2 {
+    font-size: 30px;
+    line-height: 1.4em;
+    font-weight: 700;
+}    
+        
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+  
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+.order-box-2 {
+    -ms-flex-order: 2;
+    order: 2;
+}
+.order-box-1 {
+    -ms-flex-order: 1;
+    order: 1;
+}  
+
+}
+
+
+
+@media only screen and (min-width: 300px) and (max-width: 767px) { 
+.order-box-2 {
+    -ms-flex-order: 2;
+    order: 2;
+}
+.order-box-1 {
+    -ms-flex-order: 1;
+    order: 1;
+} 
+
+}
+
+
+
+

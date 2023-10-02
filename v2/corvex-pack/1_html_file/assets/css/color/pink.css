@@ -1,0 +1,119 @@
+
+
+/*** 
+=====================================================
+	Theme Main Color Css
+=====================================================
+***/
+.thm_clr1,
+.main-menu .navigation>li:hover>a,
+.main-menu .navigation>li.current>a,
+.main-menu .navigation>li>ul>li>a:hover,
+.main-menu .navigation> li> ul> li:hover> a,
+.main-menu .navigation> li> ul> li> ul> li> a:hover,
+.main-menu .navigation> li> .megamenu li:hover a,
+.main-menu .navigation> li> ul> li.dropdown> a:after,
+.mobile-menu .navigation li.current > a,
+.mobile-menu .navigation li > a:hover,
+.outer-search-box-style1 .seach-toggle:hover,
+.outer-search-box-style1 .seach-toggle.active,
+.sticky-header .main-menu .navigation>li:hover>a,
+.sticky-header .main-menu .navigation>li.current>a,
+.info-style6-area .single-info-box .title-holder a:hover,
+.single-info-box .icon-holder span,
+.contact-phn-number1 .phn-number h2 a:hover,
+.single-blog-style1:hover .text-holder .blog-title a,
+.single-blog-style2:hover .text-holder .blog-title a,
+.single-blog-style1.standard:hover .text-holder .blog-title-big a,
+.single-sidebar .sidebar-categories-box li:before,
+.single-sidebar .sidebar-categories-box li:hover a,
+.breadcrumb-menu ul li,
+.breadcrumb-style2-area .meta-info li a,
+.footer-widget-links1 li:hover a,
+.single-footer-widget .footer-contact-info ul li .icon span,
+.footer-menu-style1 ul li a:hover,
+.single-footer-widget .footer-contact-info ul li .text a:hover,
+.copyright-text p a,
+.single-info-box-style3 .inner .icon-holder span {
+    color: #E31C79;
+}
+
+
+
+
+
+
+
+/*** 
+=====================================================
+	Theme Main Background Color Css
+=====================================================
+***/
+.thm_bgclr1,
+.main-menu .navigation> li> ul> li> a:before,
+.main-menu .navigation> li> ul> li> ul> li a:before,
+.main-menu .navigation> li> .megamenu li> a:before,
+.nav-outer .mobile-nav-toggler .inner,
+.thm-social-link1 ul li a:before,
+.owl-carousel.owl-dot-style1 .owl-dots .owl-dot.active span,
+.styled-pagination li:hover a,
+.styled-pagination li.active a,
+.styled-pagination li.prev a:hover,
+.styled-pagination li.next a:hover,
+.btn-one,
+.single-info-box .icon-holder:before,
+.single-history-box .year-box:before,
+.single-history-box .year-box h3,
+.banner-content-box.style3 .button-box a.btn-one,
+.choose-style2-area .choose-style1-content-box .button-box .btn-one,
+.footer-social-link ul li a:hover:before,
+.project-filter li .filter-text:before,
+.single-service-style1 .img-holder,
+.single-service-style1 .title-holder:before,
+.single-team-item .social-icon ul li a:hover,
+.single-team-item .social-icon:hover .social-share-icon:before,
+.single-team-item .social-icon:hover .social-share-icon span:before,
+.footer-widget-links1 li a:before {
+    background: #E31C79;
+}
+
+
+
+
+
+
+
+/*** 
+=====================================================
+	Theme Main Border Color Css
+=====================================================
+***/
+.mobile-menu .navigation li > a:before {
+    border-left: 5px solid #E31C79;
+}
+.btn-one:before{
+    border: 2px solid #E31C79;
+}
+.banner-content-box.style3 .button-box a.btn-one:before {
+    border: 2px solid #E31C79;
+}
+.choose-style2-area .choose-style1-content-box .button-box .btn-one:before {
+    border: 2px solid #E31C79;
+}
+
+
+.styled-pagination li:hover a,
+.styled-pagination li.active a,
+.styled-pagination li.prev a:hover,
+.styled-pagination li.next a:hover {
+    border-color: #E31C79;
+}
+
+
+
+
+
+
+
+
+

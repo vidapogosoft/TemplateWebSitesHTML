@@ -1,0 +1,185 @@
+
+
+/*** 
+=============================================
+    Fact Counter Area style
+=============================================
+***/
+.fact-counter-area {
+    position: relative;
+    display: block;
+    background: #0c1529;
+    z-index: 10;
+}
+
+.fact-counter{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.fact-counter-box {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 67px 0 11px;
+}
+.single-fact-counter {
+    position: relative;
+    display: block;
+    float: left;
+    max-width: 25%;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.single-fact-counter .count-box{
+    position: relative;
+    display: inline-block;
+}
+.single-fact-counter .count-box h2 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 800;
+}
+.single-fact-counter .count-box h2 span {
+    display: inline-block;
+}
+.single-fact-counter .count-box h2 .plus_icon {
+    position: absolute;
+    top: 6px;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 2px;
+}
+.single-fact-counter .count-box h2 span.k {
+    margin-left: -10px;
+}
+.single-fact-counter .sub-title {
+    position: relative;
+    display: inline-block;
+    margin: 7px 0 0;
+}
+.single-fact-counter .count-box h5 {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+/*** 
+=============================================
+    Fact Counter Style2 Area Css
+=============================================
+***/
+.fact-counter-style2-area {
+    position: relative;
+    display: block;
+    margin-bottom: -100px;
+    z-index: 10;
+}
+.fact-counter-style2 {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    box-shadow: 0px -20px 50px 0px rgba(12, 21, 41, 0.1);
+}
+
+
+.fact-counter-style2 .shape1 {
+    position: absolute;
+    left: -30px;
+    top: -28px;
+    opacity: 0.30;
+    z-index: 1;
+}
+.fact-counter-style2 .shape2{
+    position: absolute;
+    right: -28px;
+    top: -28px;
+    opacity: 0.30;
+    z-index: 1;
+}
+
+.fact-counter-box-style2 {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background: #ffffff;
+    text-align: center;
+    padding: 61px 0 9px;
+    z-index: 10;
+}
+.fact-counter-box-style2 .single-fact-counter {
+    margin-bottom: 30px;
+}
+.fact-counter-box-style2 .single-fact-counter .count-box h2 {
+    font-size: 100px;
+    line-height: 110px;
+    font-weight: 800;
+    color: #ffffff;
+}
+.fact-counter-box-style2 .single-fact-counter .sub-title {
+    position: absolute;
+    top: 30px;
+    left: -60px;
+    right: -60px;
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+.fact-counter-box-style2 .single-fact-counter .sub-title h5{
+    color: #0c1529;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    background: #ffffff;
+    box-shadow: 0px 6px 30px 0px rgba(12, 21, 41, 0.15);
+}
+
+
+
+/*** 
+=============================================
+    Fact Counter Style3 Area Css
+=============================================
+***/
+.fact-counter-style3-area {
+    position: relative;
+    display: block;
+    z-index: 10;
+}
+.fact-counter-style3 {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    box-shadow: 0px 20px 50px 0px rgba(12, 21, 41, 0.1);
+}
+.fact-counter-style3 .shape1 {
+    position: absolute;
+    left: -30px;
+    top: -28px;
+    opacity: 0.30;
+    z-index: 1;
+}
+.fact-counter-style3 .shape2{
+    position: absolute;
+    right: -28px;
+    bottom: -28px;
+    opacity: 0.30;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
